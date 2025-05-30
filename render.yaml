@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: tunisian-agriculture-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: GEE_CREDENTIALS
+        sync: false
+      - key: PORT
+        value: 10000
+    healthCheckPath: /api/analyze
