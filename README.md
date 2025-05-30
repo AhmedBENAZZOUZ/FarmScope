@@ -11,7 +11,7 @@ FarmScope combines the power of:
 - 🌍 Geolocation-based data (via geocode/maps)
 - 🛰️ Satellite imagery (Sentinel-1 & Sentinel-2)
 - 🌦️ Weather forecasts (via Open-Meteo)
-- 🤖 LLMs (OpenAI, LangChain) for analysis & generation
+- 🤖 LLMs (DeepSeek, LangChain) for analysis & generation
 - ⚡ FastAPI backend for serving RESTful endpoints
 
 ---
@@ -48,7 +48,7 @@ FarmScope combines the power of:
 |------|--------|
 | FastAPI | REST API backend |
 | LangChain | LLM orchestration |
-| OpenAI | LLM for generation & intent detection |
+| DeepSeek | LLM for generation & intent detection |
 | Google Earth Engine | Satellite imagery processing |
 | Geemap | Python API for GEE |
 | Open-Meteo | Weather API |
